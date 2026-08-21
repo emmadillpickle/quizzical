@@ -81,7 +81,7 @@
     display: flex;
     gap: 30px;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .game-finished-status > h2 {
