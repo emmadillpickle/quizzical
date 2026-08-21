@@ -6,14 +6,14 @@
     background-image: url(../../assets/blue-blob-smaller.png), url(../../assets/yellow-blob-smaller.png);
     background-repeat: no-repeat;
     background-position: bottom left, top right;
-    width: 100vw;
-    height: 100vh;
+    height: 100vh; 
 }
 
 .question {
     border-bottom: 0.79px solid #DBDEF0;
-    padding: 15px;
-    width: 100vh;
+    padding: 15px 0px;
+    margin: 0px 50px;
+    width: calc(100vw - 100px);
 }
 
 .question > h2 {
@@ -38,4 +38,27 @@
     background-color: #F5F7FB;
     border: 0.79px solid #4D5B9E;
     color: #293264;
+    cursor: pointer;
+}
+
+.answer-container > .selected {
+    background-color: #D6DBF5;
+}
+
+.check-answer-button {
+    background-color: #4D5B9E;
+    border-radius: 10px;
+    border: none;
+    color: #F5F7FB;
+    font-weight: 600;
+    font-size: 0.64rem;
+    width: 120px;
+    height: 35px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.check-answer-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
 }
