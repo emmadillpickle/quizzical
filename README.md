@@ -1,18 +1,32 @@
-# React + Vite
+# 🧠 Quizzical 
+A trivia quiz game built with React that challenges players to answer five multiple-choice questions and see how well they scored.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Questions are fetched in real time from the Open Trivia Database API. Once all questions have been answered, players can check their results, see which answers were correct, and start a new quiz with a fresh set of questions.
 
-Currently, two official plugins are available:
+## ✨ Features
+- Fetches trivia questions from the Open Trivia Database API
+- Randomizes answer order for every question
+- Allows only one selected answer per question
+- Prevents answer changes after results are revealed
+- Highlights correct and incorrect answers
+- Displays final score after submission
+- Play Again functionality for generating a new quiz
+- Responsive layout for desktop and mobile devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Built With
+- React
+- JavaScript (ES6+)
+- CSS
+- Vite
+- Open Trivia Database API
 
-## React Compiler
+## 🏃🏽‍♀️ Running the Project
+- Clone the repository: `git clone https://github.com/emmadillpickle/quizzical.git`
+- Navigate to the project directory: `cd quizzical`
+- Install dependencies: `npm install`
+- Start the development server: `npm run dev` or `npm start` depending on your project setup.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🚀 Demo
+https://github.com/user-attachments/assets/dd994509-86fb-46dd-9215-e039a42460d9
 
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+_Note: This project was a solo capstone project for the "Learn React" course on Scrimba_
