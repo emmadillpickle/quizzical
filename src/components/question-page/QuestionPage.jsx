@@ -39,6 +39,7 @@ export default function QuestionPage({moveToNextPage}) {
                     return {
                         ...question,
                         all_answers: allAnswers,
+                        correct_answer: decode(question.correct_answer),
                         chosen_answer: ""
                     }
                 })

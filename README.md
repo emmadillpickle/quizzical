@@ -27,6 +27,6 @@ Questions are fetched in real time from the Open Trivia Database API. Once all q
 - Start the development server: `npm run dev` or `npm start` depending on your project setup.
 
 ## 🚀 Demo
-https://github.com/user-attachments/assets/c5a28b11-1aeb-47ab-8a6a-85d33e717ffa
+https://github.com/user-attachments/assets/d9f379dd-cbb6-404f-978d-b8e8a780f7c5
 
 _Note: This project was a solo capstone project for the "Learn React" course on Scrimba_
