@@ -10,10 +10,6 @@ export default function App() {
     setPage(prevPage => prevPage + 1)
   }
 
-  function getNewQuestions(newQuestions) {
-    setQuestions(newQuestions)
-  }
-
   return (
     <main>
       {page === 1 && <StartPage moveToNextPage={moveToNextPage} />}

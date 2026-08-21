@@ -35,14 +35,33 @@
     font-size: 0.64rem;
     padding: 3px 10px;
     min-width: 65.92px;
+    cursor: pointer;
+}
+
+.answer-container > .unselected {
     background-color: #F5F7FB;
     border: 0.79px solid #4D5B9E;
     color: #293264;
-    cursor: pointer;
 }
 
 .answer-container > .selected {
     background-color: #D6DBF5;
+}
+
+.answer-container > .correct {
+    cursor: not-allowed;
+    background-color: #94D7A2;
+    color: #293264;
+}
+
+.answer-container > .incorrect {
+    cursor: not-allowed;
+    background-color: #F8BCBC;
+}
+
+.answer-container > .unselected:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
 }
 
 .check-answer-button {
@@ -53,12 +72,31 @@
     font-weight: 600;
     font-size: 0.64rem;
     width: 120px;
-    height: 35px;
+    min-height: 35px;
     margin-top: 25px;
     cursor: pointer;
 }
 
-.check-answer-button:disabled {
-    cursor: not-allowed;
-    opacity: 0.5;
+.game-finished-status {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.game-finished-status > h2 {
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.game-finished-status > button {
+    height: 30px;
+    width: 104px;
+    background-color: #4D5B9E;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 0.64rem;
+    color: #F5F7FB;
+    cursor: pointer;
 }
